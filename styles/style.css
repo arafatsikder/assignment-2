@@ -223,3 +223,97 @@ main {
     margin-top: 50px;
     color: white;
 }
+
+.icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.youtube-icon {
+    padding-left: 20px;
+
+}
+
+
+.twitter-icon {
+    padding-left: 20px;
+}
+
+
+
+
+/* ---------------------------media queries ------------------------------------*/
+/*--------------------------- for tab------------------------------------- */
+
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .body {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        padding-left: 76px;
+        padding-top: 61px;
+        padding-bottom: 0px;
+        margin: 0%;
+        /* border: 1px solid #161616;
+        border-radius: 30px; */
+
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .heading-paragraph {
+        font-size: 14px;
+
+    }
+
+
+    .header-img {
+        width: 323px;
+        height: 340px;
+        padding-top: 58px;
+        padding-right: 17px;
+        padding-bottom: 0%;
+
+    }
+
+    .button {
+        text-decoration: none;
+        font-size: 10px;
+        color: white;
+        background-image: linear-gradient(orangered, red);
+        font-weight: 400px;
+        padding: 12px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 111px;
+    }
+
+    .newses {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .details {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+
+
+
+}
+
+
+/* ---------------------------media queries ------------------------------------*/
+/*--------------------------- for tab------------------------------------- */
+
+@media only screen and (max-width:688px) {}

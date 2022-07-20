@@ -63,9 +63,11 @@ body {
 }
 
 
-/* heading style finished */
+/* --------heading style finished------------ */
+/*------------ main part style ------------- */
+/*------------------side-bar---------------*/
 
-/*---side-bar--*/
+
 main {
     margin-top: 130px;
 }
@@ -135,7 +137,7 @@ main {
 
 }
 
-/* news section style */
+/*-------- news section style --------*/
 
 .details {
     display: flex;
@@ -216,6 +218,8 @@ main {
     height: 444px;
 }
 
+/*-------- footer heading -------- */
+
 .goal {
     text-align: center;
     margin-bottom: 50px;
@@ -233,9 +237,30 @@ main {
 
 }
 
+/*------ footer menu --- */
+
 .footer-menu {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
     color: white;
+}
+
+/* -------footer icon-------- */
+
+.icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.youtube-icon {
+    padding-left: 20px;
+
+}
+
+
+.twitter-icon {
+    padding-left: 20px;
 }
