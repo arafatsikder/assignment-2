@@ -113,6 +113,13 @@ main {
 
 }
 
+.normal a {
+    text-decoration: none;
+    background-color: white;
+    color: #161616;
+
+}
+
 .special {
     font-size: 20px;
     height: 64px;
